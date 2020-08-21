@@ -2,7 +2,7 @@
 if ("serviceWorker" in navigator) {
     window.addEventListener("load", function () {
         navigator.serviceWorker
-            .register("/services-worker.js")
+            .register("/laligas.github.io/services-worker.js", {scope: "/laligas.github.io/"} )
             .then(function () {
                 console.log("Pendaftaran ServiceWorker berhasil");
             })
