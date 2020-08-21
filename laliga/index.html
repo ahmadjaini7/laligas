@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./css/materialize.min.css" media="screen,projection" />
+    <!-- Import style css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="apple-touch-icon" href="./image/laliga.png">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Liga Spanyol</title>
+    <!-- create web app manifest -->
+
+    <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#0c7a3a" />
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <nav>
+            <div class="nav-wrapper green darken-3 navigasi">
+                <a href="" class="brand-logo"><img src="./image/laliga.png" alt="Logo" width="160px" /></a>
+                <a href="" data-target="mobile-demo"
+                    class="sidenav-trigger waves-light btn #ffffff white tombol""><i class="
+                    material-icons">menu</i></a>
+
+                <!--menu navbar-->
+                <ul class="topnav right hide-on-med-and-down"></ul>
+                <ul class="sidenav" id="mobile-demo"></ul>
+                <!-- end menu navbar -->
+            </div>
+        </nav>
+    </header>
+    <!-- end header -->
+
+    <!-- start main -->
+    <main>
+        <div class="container-fluid" id="body-content">
+        </div>
+    </main>
+    <!-- end main -->
+    <footer>
+        <p> Laliga 2020 / 2021</p>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+
+    <script type="text/javascript" src="./js/materialize.min.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+    <script src="./swcon.js"></script>
+    <script>
+        // Request API
+        document.addEventListener("DOMContentLoaded", function () {
+            getHomeAll();
+            getTeamsAll();
+        })
+    </script>
+</body>
+
+</html>
