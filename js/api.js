@@ -191,7 +191,7 @@ function tampilkanTeam(data2) {
     let detailTeam = `
                                 <div class="container">
                                 <h4 class="heading">Informasi Team</h4>
-                                <a class="heading" href="/index.html#saved">TIM di simpan</a>
+                                <a class="heading" href="https://ahmadjaini7.github.io/laligas.github.io/index.html#saved">TIM di simpan</a>
 
                                 <div class="row">
                                 <div class="col s1 m2 l3"></div>
@@ -243,7 +243,7 @@ function getSavedTeam() {
                 <div class="col s10 m8 l6">
                 <div class="card">
                 <div class="card-image">
-                <a href="/team.html?id=${team.id}&saved=true">
+                <a href="https://ahmadjaini7.github.io/laligas.github.io/team.html?id=${team.id}&saved=true">
                 <img src="${logo}">
                 </a>
                 </div>
@@ -287,7 +287,7 @@ function getSavedTeamById() {
             informasiTim = `
             <div class="container">
             <h4 class="heading">Informasi Team Favorit</h4>
-            <a class="heading" href="/index.html#saved">TIM di simpan</a>
+            <a class="heading" href="https://ahmadjaini7.github.io/laligas.github.io/index.html#saved">TIM di simpan</a>
             <div class="row">
             <div class="col s1 m2 l3"></div>
             <div class="col s10 m8 l6">
