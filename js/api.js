@@ -66,7 +66,7 @@ function tampilkanKlasemen(data) {
     data.standings[0].table.forEach(standing => {
         let logo = "";
         if (standing.team.crestUrl) {
-            logo = `../https://ahmadjaini7.github.io/laligas.github.io/js/logo/${standing.team.id}.png`;
+            logo = `https://ahmadjaini7.github.io/laligas.github.io/js/logo/${standing.team.id}.png`;
         }
         standings += `
                 <tr>
@@ -130,7 +130,7 @@ function tampilkanKlubs(data1) {
     data1.teams.forEach(team => {
         let logo = "";
         if (team.crestUrl) {
-            logo = `https://ahmadjaini7.github.io/js/logo/${team.id}.png`;
+            logo = `https://ahmadjaini7.github.io/laligas.github.io/js/logo/${team.id}.png`;
         }
         teams += `
 
@@ -186,7 +186,7 @@ function getTeam() {
 function tampilkanTeam(data2) {
     let logo = "";
     if (data2.crestUrl) {
-        logo = `https://ahmadjaini7.github.io/js/logo/${data2.id}.png`;
+        logo = `https://ahmadjaini7.github.io/laligas.github.io/js/logo/${data2.id}.png`;
     }
     let detailTeam = `
                                 <div class="container">
@@ -234,7 +234,7 @@ function getSavedTeam() {
             teams.forEach(team => {
                 let logo = "";
                 if (team.crestUrl) {
-                    logo = `https://ahmadjaini7.github.io/js/logo/${team.id}.png`;
+                    logo = `https://ahmadjaini7.github.io/laligas.github.io/js/logo/js/logo/${team.id}.png`;
                 }
                 infoTim += `
                 <div class="container">
@@ -281,7 +281,7 @@ function getSavedTeamById() {
         .then((team) => {
             let logo = "";
             if (team.crestUrl) {
-                logo = `https://ahmadjaini7.github.io/js/logo/${team.id}.png`;
+                logo = `https://ahmadjaini7.github.io/laligas.github.io/js/logo/${team.id}.png`;
             }
             let informasiTim = "";
             informasiTim = `
