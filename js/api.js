@@ -66,7 +66,7 @@ function tampilkanKlasemen(data) {
     data.standings[0].table.forEach(standing => {
         let logo = "";
         if (standing.team.crestUrl) {
-            logo = `../https://ahmadjaini7.github.io/js/logo/${standing.team.id}.png`;
+            logo = `https://ahmadjaini7.github.io/laligas.github.io/js/logo/${standing.team.id}.png`;
         }
         standings += `
                 <tr>
