@@ -234,7 +234,7 @@ function getSavedTeam() {
             teams.forEach(team => {
                 let logo = "";
                 if (team.crestUrl) {
-                    logo = `https://ahmadjaini7.github.io/laligas.github.io/js/logo/js/logo/${team.id}.png`;
+                    logo = `https://ahmadjaini7.github.io/laligas.github.io/js/logo/${team.id}.png`;
                 }
                 infoTim += `
                 <div class="container">
