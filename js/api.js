@@ -139,7 +139,7 @@ function tampilkanKlubs(data1) {
             <div class="col s10 m8 l6">
             <div class="card">
             <div class="card-image">
-            <a href="laligas.github.io/team.html?id=${team.id}">
+            <a href="https://ahmadjaini7.github.io/laligas.github.io/team.html?id=${team.id}">
             <img src="${logo}">
             </a>
             </div>
